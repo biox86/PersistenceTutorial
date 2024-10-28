@@ -32,5 +32,7 @@ public class Ball : MonoBehaviour
         }
 
         m_Rigidbody.linearVelocity = velocity;
+
+        Debug.Log(velocity);
     }
 }
